@@ -391,9 +391,10 @@ import pingoLogo from "../assets/Pingo (5).png";
 
 const navigation = [
   { name: "Home", path: "/" },
+    { name: "About Us", path: "/about" },
+
   { name: "Products", path: "/products" },
   { name: "Applications", path: "/applications" },
-  { name: "About Us", path: "/about" },
   { name: "Contact", path: "/contact" },
 ];
 
