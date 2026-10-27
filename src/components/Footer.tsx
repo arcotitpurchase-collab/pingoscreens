@@ -978,7 +978,7 @@ export default function Footer() {
               </span>
 
               <span className="flex items-center justify-between gap-3 text-sm font-semibold text-[#142B48] transition-colors group-hover:text-[#0047C0] sm:text-base">
-                info@aniplgroup.com
+                pingoscreens@gmail.com
 
                 <ArrowIcon className="h-5 w-5 shrink-0 text-[#0047C0] transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
               </span>
