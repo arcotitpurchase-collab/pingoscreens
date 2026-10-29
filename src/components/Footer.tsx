@@ -736,42 +736,42 @@ function ArrowIcon(props: IconProps) {
 const socialLinks = [
   {
     name: "Instagram",
-    url: "https://www.instagram.com/__aniplgroup__/",
+    url: "https://www.instagram.com/pingoscreens/?hl=en",
     icon: InstagramIcon,
   },
-  {
-    name: "Facebook",
-    url: "#",
-    icon: FacebookIcon,
-  },
+  // {
+  //   name: "Facebook",
+  //   url: "#",
+  //   icon: FacebookIcon,
+  // },
   {
     name: "LinkedIn",
-    url: "#",
+    url: "https://www.linkedin.com/company/alphanumeric-innovations-private-limited/posts/?viewAsMember=true",
     icon: LinkedInIcon,
   },
   {
     name: "X",
-    url: "https://x.com/ANInnovations",
+    url: "https://x.com/PingoScreens",
     icon: XIcon,
   },
   {
     name: "Pinterest",
-    url: "https://in.pinterest.com/aniplgroup/",
+    url: "https://in.pinterest.com/pingoscreens/",
     icon: PinterestIcon,
   },
   {
     name: "YouTube",
-    url: "https://www.youtube.com/@aniplgroup",
+    url: "https://www.youtube.com/@PingoScreens",
     icon: YouTubeIcon,
   },
-  {
-    name: "Google",
-    url: "https://myaccount.google.com/?utm_source=OGB&utm_medium=app",
-    icon: GoogleIcon,
-  },
+  // {
+  //   name: "Google",
+  //   url: "https://myaccount.google.com/?utm_source=OGB&utm_medium=app",
+  //   icon: GoogleIcon,
+  // },
   {
     name: "Threads",
-    url: "https://www.threads.com/@__aniplgroup__",
+    url: "https://www.threads.com/@pingoscreens",
     icon: ThreadsIcon,
   },
 ];
