@@ -646,13 +646,13 @@ function InstagramIcon(props: IconProps) {
   );
 }
 
-function FacebookIcon(props: IconProps) {
-  return (
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
-      <path d="M22 12a10 10 0 1 0-11.56 9.87v-6.98H7.9V12h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.19 2.23.19v2.46h-1.26c-1.24 0-1.62.77-1.62 1.56V12h2.77l-.44 2.89h-2.33v6.98A10 10 0 0 0 22 12Z" />
-    </svg>
-  );
-}
+// function FacebookIcon(props: IconProps) {
+//   return (
+//     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
+//       <path d="M22 12a10 10 0 1 0-11.56 9.87v-6.98H7.9V12h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.19 2.23.19v2.46h-1.26c-1.24 0-1.62.77-1.62 1.56V12h2.77l-.44 2.89h-2.33v6.98A10 10 0 0 0 22 12Z" />
+//     </svg>
+//   );
+// }
 
 function LinkedInIcon(props: IconProps) {
   return (
@@ -686,13 +686,13 @@ function YouTubeIcon(props: IconProps) {
   );
 }
 
-function GoogleIcon(props: IconProps) {
-  return (
-    <svg viewBox="0 0 488 512" fill="currentColor" aria-hidden="true" {...props}>
-      <path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4Z" />
-    </svg>
-  );
-}
+// function GoogleIcon(props: IconProps) {
+//   return (
+//     <svg viewBox="0 0 488 512" fill="currentColor" aria-hidden="true" {...props}>
+//       <path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4Z" />
+//     </svg>
+//   );
+// }
 
 function ThreadsIcon(props: IconProps) {
   return (
