@@ -746,7 +746,7 @@ const socialLinks = [
   // },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/company/alphanumeric-innovations-private-limited/posts/?viewAsMember=true",
+    url: "https://www.linkedin.com/company/pingo-screens/home/?viewAsMember=true",
     icon: LinkedInIcon,
   },
   {
