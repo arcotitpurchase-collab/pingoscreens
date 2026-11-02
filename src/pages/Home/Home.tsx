@@ -3152,100 +3152,149 @@ import {
 
 // PINGO SCREENS — HERO SLIDES
 
+// const slides = [
+
+//   {
+
+//     id: 1,
+
+//     category: "INDOOR LED DISPLAYS",
+
+//     title: "Transform Every Interior.",
+
+//     description:
+
+//       "Extraordinary visual experiences for premium interiors, commercial spaces, and modern environments.",
+
+//     image: "/images/hero/indoor-led.webp",
+
+//     position: "center",
+
+//   },
+
+//   {
+
+//     id: 2,
+
+//     category: "OUTDOOR LED DISPLAYS",
+
+//     title: "Make Every Impression Count.",
+
+//     description:
+
+//       "Dynamic large-format displays that bring brands, messages, and cityscapes to life.",
+
+//     image: "/images/hero/outdoor-led.webp",
+
+//     position: "center",
+
+//   },
+
+//   {
+
+//     id: 3,
+
+//     category: "TRANSPARENT LED DISPLAYS",
+
+//     title: "Where Vision Meets Architecture.",
+
+//     description:
+
+//       "Discover creative visual possibilities with transparent display experiences.",
+
+//     image: "/images/hero/transparent-led.webp",
+
+//     position: "center",
+
+//   },
+
+//   {
+
+//     id: 4,
+
+//     category: "FINE PITCH LED DISPLAYS",
+
+//     title: "Experience Every Detail.",
+
+//     description:
+
+//       "Remarkable clarity for professional environments where precision matters.",
+
+//     image: "/images/hero/fine-pitch-led.webp",
+
+//     position: "center",
+
+//   },
+
+//   {
+
+//     id: 5,
+
+//     category: "CREATIVE LED DISPLAYS",
+
+//     title: "Beyond the Ordinary.",
+
+//     description:
+
+//       "Immersive, curved, and architectural display experiences that inspire.",
+
+//     image: "/images/hero/creative-led.webp",
+
+//     position: "center",
+
+//   },
+  
+
+// ] as const;
+
+
 const slides = [
-
   {
-
     id: 1,
-
     category: "INDOOR LED DISPLAYS",
-
-    title: "Transform Every Interior.",
-
+    title: "Transform Spaces. Inspire Experiences.",
     description:
-
-      "Extraordinary visual experiences for premium interiors, commercial spaces, and modern environments.",
-
+      "Bring interiors to life with immersive LED displays that deliver stunning visuals, exceptional clarity, and unforgettable experiences.",
     image: "/images/hero/indoor-led.webp",
-
-    position: "center",
-
+    position: "60% center",
   },
-
   {
-
     id: 2,
-
     category: "OUTDOOR LED DISPLAYS",
-
-    title: "Make Every Impression Count.",
-
+    title: "Make Your Brand Impossible to Ignore.",
     description:
-
-      "Dynamic large-format displays that bring brands, messages, and cityscapes to life.",
-
+      "Command attention with high-impact outdoor LED displays that transform advertising spaces, commercial landmarks, and cityscapes.",
     image: "/images/hero/outdoor-led.webp",
-
-    position: "center",
-
+    position: "60% center",
   },
-
   {
-
     id: 3,
-
     category: "TRANSPARENT LED DISPLAYS",
-
-    title: "Where Vision Meets Architecture.",
-
+    title: "Where Technology Meets Transparency.",
     description:
-
-      "Discover creative visual possibilities with transparent display experiences.",
-
+      "Redefine glass façades and modern architecture with transparent LED displays that blend captivating visuals with architectural elegance.",
     image: "/images/hero/transparent-led.webp",
-
-    position: "center",
-
+    position: "60% center",
   },
-
   {
-
     id: 4,
-
     category: "FINE PITCH LED DISPLAYS",
-
-    title: "Experience Every Detail.",
-
+    title: "Precision in Every Pixel.",
     description:
-
-      "Remarkable clarity for professional environments where precision matters.",
-
+      "Experience remarkable detail and visual clarity with fine-pitch LED displays designed for corporate spaces, control rooms, and premium environments.",
     image: "/images/hero/fine-pitch-led.webp",
-
-    position: "center",
-
+    position: "60% center",
   },
-
   {
-
     id: 5,
-
     category: "CREATIVE LED DISPLAYS",
-
-    title: "Beyond the Ordinary.",
-
+    title: "Break Boundaries. Redefine Possibilities.",
     description:
-
-      "Immersive, curved, and architectural display experiences that inspire.",
-
+      "Go beyond conventional screens with curved, flexible, and custom-shaped LED displays that transform extraordinary ideas into reality.",
     image: "/images/hero/creative-led.webp",
-
-    position: "center",
-
+    position: "60% center",
   },
-
 ] as const;
-
 
 // ANIMATION SETTINGS
 
@@ -3257,6 +3306,9 @@ const showcaseProducts = [
   { id: "outdoor", name: "Outdoor LED Video Walls", description: "High-visibility displays and architectural systems.", image: "/images/products/outdoor/earth-series.webp" },
   { id: "rental", name: "Rental Displays", description: "Event-ready and touring LED configurations.", image: "/images/products/rental/arena-series.webp" },
   { id: "sports", name: "Sports Series", description: "Display systems for stadiums and sports venues.", image: "/images/products/sports/atlas.webp" },
+  { id: "flexible", name: "Flexible LED Displays", description: "Curved, cylindrical, wave-shaped and custom LED display solutions.", image: "/images/products/flexible/flex-series.png" },
+  { id: "transparent", name: "Transparent LED Displays", description: "See-through LED displays for retail, glass surfaces and architectural façades.", image: "/images/products/transparent/iris-indoor-series.png" },
+  
 ];
 
 const SLIDE_DURATION = 10000;
@@ -3785,16 +3837,6 @@ export default function Home() {
           })}
 
         </div>
-
-
-
-        {/* =====================================
-
-            DARK GRADIENT OVERLAYS
-
-        ===================================== */}
-
-
 
         <div
 
@@ -4648,13 +4690,12 @@ export default function Home() {
 {/* SECTION 03 — OUR PRODUCTS */}
 
 <section
-  id="our-products"
-  aria-labelledby="our-products-heading"
-  className="w-full bg-white py-16 sm:py-20 lg:py-28"
->
+   id="our-products"
+   aria-labelledby="our-products-heading"
+   className="w-full bg-white py-16 sm:py-20 lg:py-28" 
+  >
   <div className="mx-auto w-full max-w-[1600px] px-5 sm:px-8 lg:px-12 xl:px-16">
 
-    {/* SECTION HEADING */}
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -4678,7 +4719,6 @@ export default function Home() {
       </p>
     </motion.div>
 
-    {/* PRODUCT CAROUSEL */}
     <div
       ref={productsRef}
       role="region"
@@ -4758,7 +4798,6 @@ export default function Home() {
       ))}
     </div>
 
-    {/* CAROUSEL CONTROLS */}
     <div className="mt-7 flex items-center justify-between gap-4">
       <span className="text-xs font-medium uppercase tracking-[0.12em] text-[#64748B]">
         Swipe or browse
@@ -4785,7 +4824,6 @@ export default function Home() {
       </div>
     </div>
 
-    {/* VIEW ALL PRODUCTS */}
     <div className="mt-10 text-center sm:mt-12">
       <Link
         to="/products"
