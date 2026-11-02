@@ -1010,9 +1010,7 @@ export default function Footer() {
             All rights reserved.
           </p>
 
-          <p className="text-xs text-[#647788]">
-            A visual technology brand.
-          </p>
+          
         </div>
 
       </div>
